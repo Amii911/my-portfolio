@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaLinkedin, FaMediumM} from 'react-icons/fa'
+
 
 function Contact() {
     const [fromName, setFromName] = useState('')
@@ -64,13 +65,6 @@ function Contact() {
             <button type="submit">Send Email</button>
           </form>
         </div> */}
-        
-                      {/* social icons */}
-      <div className='flex fixed fle-col top-[35%] left-0'>
-        <ul>
-
-        </ul>
-      </div>
       </div>
     )
 }

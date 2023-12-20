@@ -3,7 +3,9 @@ import {HiArrowNarrowRight} from 'react-icons/hi';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='bg-[#ffffff] text-[#1f2435]'>
+
+    </div>
   )
 }
 
