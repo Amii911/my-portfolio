@@ -18,12 +18,12 @@ function Navbar() {
         </ul>
       
       {/* Hamburger */}
-      <div className='md:hidden z-10'>
-        <FaBars/>
+      <div onClick={handleClick} className='md:hidden z-10'>
+        { !nav ? <FaBars/> : <FaTimes/> }
       </div>
 
       {/* Mobile menu */}
-      <ul className='hidden absolute top-0 left-0 w-full h-screen bg-[#CFDCD1] flex flex-col justify-center items-center'>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#CFDCD1] flex flex-col justify-center items-center'}>
           <li className='py-6 text-3xl'>Home</li>
           <li className='py-6 text-3xl'>About</li>
           <li className='py-6 text-3xl'>Skills</li>
