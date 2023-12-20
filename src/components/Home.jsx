@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {HiArrowNarrowRight} from 'react-icons/hi';
 
 function Home() {
   return (

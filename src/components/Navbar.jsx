@@ -30,9 +30,6 @@ function Navbar() {
           <li className='py-6 text-3xl'>Project</li>
           <li className='py-6 text-3xl'>Contact</li>
       </ul>
-
-      {/* social icons */}
-      <div className='hidden'></div>
     </div>
 
   )
