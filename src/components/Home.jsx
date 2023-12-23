@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-// import {HiArrowNarrowRight} from 'react-icons/hi';
+
 
 function Home() {
   return (
@@ -8,20 +8,20 @@ function Home() {
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p>Welcome!</p>
-            <h1>I'm Aminat Adebayo | Brooklyn, NY</h1>
-            <h2> <TypeAnimation
+            <p className='text-2xl font-bold text-[#1f2435]'>Welcome!</p>
+            <h1 className='text-3xl text-[#1f2435]'>Hi, I'm Aminat Adebayo</h1>
+            <h2 className='font-bold text-[#1f2435]'> <TypeAnimation
       sequence={[
         'FULL-STACK SOFTWARE ENGINEER',
-        1000,
+        2000,
         'CODER',
-        1000,
+        2000,
         'TECH ENTHUSIAST',
-        1000
+        2000
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '1em', display: 'inline-block' }}
+      style={{ fontSize: '2em', display: 'inline-block' }}
       repeat={Infinity}
     /></h2>
         </div>
