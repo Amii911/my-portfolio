@@ -6,14 +6,15 @@ function Navbar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#CFDCD1] text-[#1f2435]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#CFDCD1] text-[#1f2435] z-10'>
+    
       <div className='text-2xl font-bold'>Aminat Adebayo</div>
       {/* menu */}
         <ul className='hidden md:flex'>
           <li>Home</li>
           <li>About</li>
           <li>Skills</li>
-          <li>Project</li>
+          <li>Projects</li>
           <li>Contact</li>
         </ul>
       
@@ -27,7 +28,7 @@ function Navbar() {
           <li className='py-6 text-3xl'>Home</li>
           <li className='py-6 text-3xl'>About</li>
           <li className='py-6 text-3xl'>Skills</li>
-          <li className='py-6 text-3xl'>Project</li>
+          <li className='py-6 text-3xl'>Projects</li>
           <li className='py-6 text-3xl'>Contact</li>
       </ul>
   
