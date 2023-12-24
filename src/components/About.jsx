@@ -27,6 +27,7 @@ const About = () => {
             </div>
             <br/>
             <a href='src/assets/Aminat_Adebayo Resume.pdf'
+            className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#5da8ed] hover:border-[#5da8ed]'
             >Download My Resume</a>
           </div>
       </div>
