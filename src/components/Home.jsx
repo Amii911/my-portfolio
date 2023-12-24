@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import { HiArrowNarrowRight } from 'react-icons/hi'
 
 
 function Home() {
