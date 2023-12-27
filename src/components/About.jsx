@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div></div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8'>
+          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
               <img src='src/assets/Aminat Adebayo Headshot.JPG' alt='Headshot'
               className='max-w-[50px] w-full h-auto'/>
@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <br/>
             <a href='src/assets/Aminat_Adebayo Resume.pdf'
-            className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#5da8ed] hover:border-[#5da8ed]'
+            className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
             >Download My Resume</a>
           </div>
       </div>
