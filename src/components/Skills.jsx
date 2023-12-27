@@ -14,7 +14,7 @@ const JAVA_LOGO = "https://static.vecteezy.com/system/resources/previews/022/101
 const Skills = () => {
     return (
       <div name='skills' className='w-full h-screen bg-[#f1ecea] text-[#1f2435]'>
-        {/* Container */}
+        
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 '>Skills</p>
@@ -22,63 +22,45 @@ const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={PY_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={PY_LOGO} alt="Python icon" />
                     <p className='my-4'>Python</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JAVA_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={JAVA_LOGO} alt="Java icon" />
                     <p className='my-4'>Java</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JS_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={JS_LOGO} alt="JS icon" />
                     <p className='my-4'>JavaScript</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={HTML5_LOGO} alt="HTML icon" />
                     <p className='my-4'>HTML 5</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={CSS_LOGO} alt="CSS icon" />
                     <p className='my-4'>CSS</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={REACT_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={REACT_LOGO} alt="React icon" />
                     <p className='my-4'>React</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={PY_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={PY_LOGO} alt="Tailwind icon" />
                     <p className='my-4'>Tailwind</p>
-                </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={REDUX_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={REDUX_LOGO} alt="Redux icon" />
                     <p className='my-4'>Redux</p>
                 </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={FLASK_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={FLASK_LOGO} alt="Flask icon" />
                     <p className='my-4'>Flask</p>
                 </div>  
-            </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={SQLALCHEMY_LOGO} alt="HTML icon" />
+                    <img className='w-20 mx-auto' src={SQLALCHEMY_LOGO} alt="SQLAchemy icon" />
                     <p className='my-4'>SQLAlchemy</p>
-                </div>  
+                </div> 
             </div>
             {/* add sqlite, mysql, postgressql... fix styling */}
         </div>
