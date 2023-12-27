@@ -12,11 +12,11 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 text-[#1f2435]'>
             Projects
           </p>
-          <p className='py-6'>Check out some of my recent work</p>
+          <p className='py-6'>My recent work</p>
         </div>
 
 {/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div className="grid sm:grid-cols-4 md:grid-cols-3 gap-4">
           
           {/* Gird Item */}
           {project.map((item, index) => (
@@ -28,24 +28,26 @@ const Projects = () => {
   >
     {/* Hover effect for images */}
     <div className="opacity-0 group-hover:opacity-100 ">
-      <span className="text-2xl font bold text-white tracking-wider ">
+      <span className="text-xl font-bold text-[#1f2435]] tracking-wider ">
         {item.name}
+        <br></br>
+        {item.summary}
+        <br></br>
+        Tech Stack: {item.tech}
       </span>
       <div className="pt-8 text-center ">
-        {/* eslint-disable-next-line */}
         <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-[#8892b0] text-gray-700 font-bold text-lg"
           >
             Github
           </button>
         </a>
-        {/* eslint-disable-next-line */}
         <a href={item.live} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-[#8892b0] text-gray-700 font-bold text-lg"
           >
             Walkthough
           </button>
