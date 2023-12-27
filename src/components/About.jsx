@@ -15,7 +15,7 @@ const About = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
               <img src='src/assets/Aminat Adebayo Headshot.JPG' alt='Headshot'
-              className='max-w-[50px] w-full h-auto'/>
+              className='max-w-[270px] w-full h-auto'/>
             </div>
             <div>
                 <p>I am a Software Engineer based in Brooklyn, NY. In September 2022, I made a bold career shift, transitioning from a role as a Paralegal to immerse myself in the challenges of the tech world.
@@ -24,11 +24,10 @@ const About = () => {
                 <br/>
                  Outside of work, I hang out with friends and family, try new foods, play tennis, yoga, attend meet ups, and help host Tech Gather NYC!
                 </p>  
+                <a href='src/assets/Aminat_Adebayo Resume.pdf'
+                  className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
+                  >Download My Resume</a>
             </div>
-            <br/>
-            <a href='src/assets/Aminat_Adebayo Resume.pdf'
-            className='border-4 px-6 py-3 my-2 flex items-center hover:bg-[#8892b0] hover:border-[#8892b0]'
-            >Download My Resume</a>
           </div>
       </div>
     </div>

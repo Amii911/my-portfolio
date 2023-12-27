@@ -41,7 +41,7 @@ function Contact() {
               <input className='p-2' type="text" placeholder='Name' name='name' value={fromName} onChange={(e) => setFromName(e.target.value)}/>
               <input className='my-4 p-2' type="email" placeholder='Email' name='email' value={fromEmail} onChange={(e)=> setFromEmail(e.target.value)} />
               <textarea className='p-2' name="message" rows="10" placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-              <button className='text-[#1f2435] border-2 hover:bg-[#8892b0] hover:border-[#8892b0] px-4 py-3 my-8 mx-auto flex items-center'>Send</button>
+              <button className='text-[#1f2435] border-2 hover:bg-[#8892b0] hover:border-[#8892b0] px-4 py-3 my-8 mx-auto flex items-center font-bold'>Send</button>
           </form>
       </div>
     )

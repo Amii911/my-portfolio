@@ -8,8 +8,8 @@ function Home() {
       
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-2xl font-bold text-[#8892b0]'>Welcome!</p>
-            <h1 className='text-3xl sm:text-5xl text-[#1f2435]'>Hi, I'm Aminat Adebayo</h1>
-            <h2 className='font-bold text-[#1f2435]'> <TypeAnimation
+            <h1 className='text-3xl font-bold sm:text-5xl text-[#1f2435]'>Hi, I'm Aminat Adebayo</h1>
+            <h2 className=' text-[#1f2435]'> <TypeAnimation
       sequence={[
         'FULL-STACK SOFTWARE ENGINEER',
         2000,
