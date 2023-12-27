@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaMediumM} from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   const [nav, setNav] = useState(false)
