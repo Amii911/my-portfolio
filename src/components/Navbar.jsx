@@ -10,13 +10,33 @@ function Navbar() {
     
       <div className='text-2xl font-bold'>Aminat Adebayo</div>
       {/* menu */}
-        <ul className='hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
+      <ul className='hidden md:flex'>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
+      </ul>
       
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -37,19 +57,19 @@ function Navbar() {
            <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
               <a className='flex justify-between items-center w-full text-[#1f2435]'
-              href="/">
+              href="https://www.linkedin.com/in/a-adebayo/">
                 LinkedIn <FaLinkedin size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
               <a className='flex justify-between items-center w-full text-[#1f2435]'
-              href="/">
+              href="https://github.com/Amii911">
                 Github <FaGithub size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
               <a className='flex justify-between items-center w-full text-[#1f2435]'
-              href="/">
+              href="https://medium.com/@bkcodergirl911">
                 Medium <FaMediumM size={30}/>
               </a>
             </li>
