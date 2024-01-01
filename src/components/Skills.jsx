@@ -14,7 +14,7 @@ const TAILWIND_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuj
 
 const Skills = () => {
     return (
-      <div name='skills' className='w-full h-screen bg-[#f1ecea] text-[#1f2435]'>
+      <div name='skills' className='w-full h-screen bg-[#f1ecea] text-[#1f2435] mt-8 md:mt-16'>
         
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
